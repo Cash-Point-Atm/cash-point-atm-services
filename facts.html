@@ -3,273 +3,342 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Facts — Cash Point ATM Services</title>
-  <meta name="description" content="Real data on what an in-store ATM does for your business. 55% of ATM users buy in-store. 70% visit specifically for the ATM. Zero cost to you.">
+  <title>The Data — Cash Point ATM Services</title>
+  <meta name="description" content="Published research on what an in-store ATM does for your business. 55% buy in-store. 70% visit specifically for the ATM. Sources cited.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAV -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="images/logo.png" alt="Cash Point ATM Services">
-      </a>
+      <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Cash Point ATM Services"></a>
       <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="facts.html" class="active">The Facts</a>
-        <a href="index.html#how-it-works">How It Works</a>
+        <a href="index.html#why">Why an ATM</a>
+        <a href="index.html#how">How It Works</a>
+        <a href="index.html#included">What's Included</a>
+        <a href="facts.html" class="active">The Data</a>
         <a href="index.html#faq">FAQ</a>
       </div>
-      <div class="nav-ctas">
-        <a href="tel:+13308538228" class="nav-btn call">📞 Call</a>
-        <a href="sms:+13308538228" class="nav-btn text">💬 Text</a>
+      <div class="nav-actions">
+        <a href="tel:+13308538228" class="nav-call">Call 330-853-8228</a>
+        <a href="sms:+13308538228" class="nav-text">Send a Text</a>
       </div>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
     </div>
-    <div class="mobile-menu" id="mobile-menu">
-      <a href="index.html">Home</a>
-      <a href="facts.html">The Facts</a>
-      <a href="index.html#how-it-works">How It Works</a>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="index.html#why">Why an ATM</a>
+      <a href="index.html#how">How It Works</a>
+      <a href="index.html#included">What's Included</a>
+      <a href="facts.html">The Data</a>
       <a href="index.html#faq">FAQ</a>
-      <a href="tel:+13308538228" class="mobile-cta call">📞 Call Now</a>
-      <a href="sms:+13308538228" class="mobile-cta text">💬 Text Now</a>
+      <div class="mobile-ctas">
+        <a href="tel:+13308538228" class="btn-primary">Call 330-853-8228</a>
+        <a href="sms:+13308538228" class="btn-outline">Send a Text</a>
+      </div>
     </div>
   </nav>
 
   <!-- FACTS HERO -->
-  <header class="facts-hero">
-    <div class="hero-bg"></div>
-    <div class="facts-hero-content">
-      <div class="section-label light">Research-Backed Data</div>
-      <h1>The Numbers Make<br><span class="green">The Decision Easy.</span></h1>
-      <p>Every stat below comes from published industry research. An in-store ATM isn't just convenient for your customers — it's a proven revenue driver with decades of retail data behind it.</p>
+  <section class="facts-hero">
+    <div class="hero-bg"><div class="hero-grid"></div><div class="hero-radial"></div></div>
+    <div class="facts-hero-inner">
+      <div class="eyebrow light">Research &amp; Data</div>
+      <h1 class="facts-h1">
+        The numbers that make<br>
+        <em>this decision easy.</em>
+      </h1>
+      <p class="facts-sub">
+        Every statistic on this page comes from published industry research. We cite every source. An in-store ATM isn't just convenient — it's a documented revenue multiplier. Here's what the data actually says.
+      </p>
+      <div class="facts-strip">
+        <div class="fs-stat"><span class="fs-n">55%</span><span class="fs-l">buy in-store</span></div>
+        <div class="fs-div"></div>
+        <div class="fs-stat"><span class="fs-n">70%</span><span class="fs-l">visit for the ATM</span></div>
+        <div class="fs-div"></div>
+        <div class="fs-stat"><span class="fs-n">20%</span><span class="fs-l">higher spend</span></div>
+        <div class="fs-div"></div>
+        <div class="fs-stat"><span class="fs-n green">$0</span><span class="fs-l">cost to you</span></div>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <!-- BIG STATS -->
-  <section class="big-stats">
-    <div class="section-inner">
-      <div class="big-stat-grid">
-        <div class="big-stat-card">
-          <div class="big-stat-num">55%</div>
-          <div class="big-stat-label">of ATM users make a purchase at the same store</div>
-          <div class="big-stat-source">NCR Atleos ATM Consumer Survey</div>
+  <!-- KEY STATS -->
+  <section class="keystats-section">
+    <div class="section-container centered">
+      <div class="eyebrow">Key Statistics</div>
+      <h2 class="section-h2" style="text-align:center">Six numbers every<br><em>location owner should know.</em></h2>
+      <div class="keystats-grid">
+        <div class="ks-card reveal">
+          <div class="ks-num">55%</div>
+          <div class="ks-label">of ATM users make a purchase at the same store where they withdrew cash</div>
+          <div class="ks-source">NCR Atleos ATM Consumer Survey</div>
         </div>
-        <div class="big-stat-card highlight-card">
-          <div class="big-stat-num green">70%</div>
-          <div class="big-stat-label">of customers visited the store specifically to use the ATM</div>
-          <div class="big-stat-source">NCR Atleos ATM Consumer Survey</div>
+        <div class="ks-card reveal green-card">
+          <div class="ks-num green">70%</div>
+          <div class="ks-label">of customers visited the store specifically and primarily to use the ATM</div>
+          <div class="ks-source">NCR Atleos ATM Consumer Survey</div>
         </div>
-        <div class="big-stat-card">
-          <div class="big-stat-num">20%</div>
-          <div class="big-stat-label">more spent per visit by ATM users vs. non-ATM customers</div>
-          <div class="big-stat-source">CDS Retail ATM Studies</div>
+        <div class="ks-card reveal">
+          <div class="ks-num">20%</div>
+          <div class="ks-label">more spent per visit by ATM users compared to non-ATM customers</div>
+          <div class="ks-source">CDS Retail ATM Studies</div>
         </div>
-        <div class="big-stat-card">
-          <div class="big-stat-num">52%</div>
-          <div class="big-stat-label">of ATM users used the cash they withdrew to pay in-store</div>
-          <div class="big-stat-source">CDS Consumer Habits Study</div>
+        <div class="ks-card reveal">
+          <div class="ks-num">52%</div>
+          <div class="ks-label">of ATM users paid for their in-store purchase with the cash they just withdrew</div>
+          <div class="ks-source">CDS Consumer Habits Study</div>
         </div>
-        <div class="big-stat-card">
-          <div class="big-stat-num">35%</div>
-          <div class="big-stat-label">of customers say they'd visit less if the ATM were removed</div>
-          <div class="big-stat-source">NCR Atleos ATM Consumer Survey</div>
+        <div class="ks-card reveal">
+          <div class="ks-num">35%</div>
+          <div class="ks-label">of customers say they would visit the store less often if the ATM were removed</div>
+          <div class="ks-source">NCR Atleos ATM Consumer Survey</div>
         </div>
-        <div class="big-stat-card highlight-card green-card">
-          <div class="big-stat-num green">$0</div>
-          <div class="big-stat-label">your total cost to place, operate and maintain your ATM — forever</div>
-          <div class="big-stat-source">Cash Point ATM Services</div>
+        <div class="ks-card reveal green-card">
+          <div class="ks-num green">$0</div>
+          <div class="ks-label">your total cost to place, operate, and maintain your ATM — permanently</div>
+          <div class="ks-source">Cash Point ATM Services</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WHAT THIS MEANS -->
-  <section class="means-section">
-    <div class="section-inner">
-      <div class="section-label">What This Means For Your Business</div>
-      <h2 class="section-title">Cash In Hand Means <span class="green">Cash Being Spent.</span></h2>
-      <div class="means-grid">
-        <div class="means-card">
-          <div class="means-icon">🚶</div>
-          <h3>Built-In Foot Traffic</h3>
-          <p>Up to 70% of ATM users came to the location specifically to use the machine. That's new traffic you didn't have to pay for — and they're already inside your business.</p>
-        </div>
-        <div class="means-card">
-          <div class="means-icon">💸</div>
-          <h3>Impulse Spending</h3>
-          <p>When customers withdraw $68 cash (the average at in-store ATMs), they tend to spend it nearby — immediately. Your store is first in line.</p>
-        </div>
-        <div class="means-card">
-          <div class="means-icon">🔁</div>
-          <h3>Customer Retention</h3>
-          <p>35% of customers say they'd visit less often if the ATM were removed. It becomes part of why they choose your location over competitors.</p>
-        </div>
-        <div class="means-card">
-          <div class="means-icon">📈</div>
-          <h3>Higher Average Spend</h3>
-          <p>ATM users spend 20% more per visit than non-ATM customers. Cash in hand changes buying behavior — and your sales reflect it.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AVG WITHDRAWAL -->
+  <!-- $68 SECTION -->
   <section class="withdrawal-section">
-    <div class="section-inner">
-      <div class="withdrawal-content">
-        <div class="withdrawal-stat">
-          <span class="withdrawal-num">$68</span>
-          <span class="withdrawal-label">Average Withdrawal</span>
+    <div class="section-container">
+      <div class="w68-card">
+        <div class="w68-left">
+          <div class="w68-num">$68</div>
+          <div class="w68-label">Average Withdrawal</div>
+          <div class="w68-sub">at in-store ATMs</div>
         </div>
-        <div class="withdrawal-text">
-          <h3>Why $68 Matters</h3>
-          <p>Customers withdraw smaller amounts at in-store ATMs compared to bank ATMs. This signals immediate spending intent — they're not saving it. They're spending it right where they withdrew it.</p>
-          <p>This is why retail ATM users consistently outspend non-ATM customers. The cash is already in their hands. Your store gets first crack at it.</p>
+        <div class="w68-right">
+          <div class="eyebrow">Why This Number Matters</div>
+          <h3 class="w68-h3">Smaller withdrawals signal immediate spending intent.</h3>
+          <p>Customers withdraw significantly smaller amounts at in-store ATMs compared to bank-attached ATMs. The average is $68. This isn't coincidence — it reflects behavior. They need cash right now, for something right here.</p>
+          <p>When someone pulls $68 from your ATM, they are not depositing it into savings. They are spending it in the next few minutes, in the next few feet. Your store is the nearest place to spend it. This is the mechanism behind the 20% higher spend rate that appears consistently across independent studies.</p>
+          <div class="w68-source">Source: CDS Consumer Habits in Retail ATMs</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TOP PURCHASE CATEGORIES -->
-  <section class="categories-section">
-    <div class="section-inner">
-      <div class="section-label">Retail Research</div>
-      <h2 class="section-title">Top Items Purchased After <span class="green">ATM Withdrawal</span></h2>
-      <p class="section-sub">According to Convenience Store News, the top categories purchased by ATM users immediately following withdrawal:</p>
-      <div class="categories-grid">
-        <div class="category-card">
-          <div class="cat-icon">⛽</div>
-          <div class="cat-name">Fuel</div>
-        </div>
-        <div class="category-card">
-          <div class="cat-icon">🚬</div>
-          <div class="cat-name">Tobacco</div>
-        </div>
-        <div class="category-card">
-          <div class="cat-icon">☕</div>
-          <div class="cat-name">Coffee &amp; Hot Beverages</div>
-        </div>
-        <div class="category-card">
-          <div class="cat-icon">🍺</div>
-          <div class="cat-name">Beverages</div>
-        </div>
-        <div class="category-card">
-          <div class="cat-icon">🍕</div>
-          <div class="cat-name">Food &amp; Snacks</div>
+  <!-- WHAT IT MEANS -->
+  <section class="means-section">
+    <div class="section-container">
+      <div class="section-left">
+        <div class="eyebrow">What the Data Means</div>
+        <h2 class="section-h2">
+          Understanding why<br>
+          <em>these numbers hold.</em>
+        </h2>
+        <p class="section-p">
+          The statistics above appear consistently across multiple independent research organizations over many years. They're not outliers. They reflect predictable human behavior at the point of purchase.
+        </p>
+        <p class="section-p">
+          Understanding the mechanism is just as important as the number itself. Cash proximity drives spending. Convenience drives loyalty. Foot traffic that enters for one reason stays for another.
+        </p>
+      </div>
+      <div class="section-right">
+        <div class="means-list">
+          <div class="means-item reveal">
+            <div class="mi-num">01</div>
+            <div class="mi-body">
+              <h3>Proximity drives purchase</h3>
+              <p>When a customer withdraws cash from your ATM, they're physically inside your business with money in their hand. The conversion rate from "used the ATM" to "bought something" is over 50%. That's not marketing — that's proximity.</p>
+            </div>
+          </div>
+          <div class="means-item reveal">
+            <div class="mi-num">02</div>
+            <div class="mi-body">
+              <h3>Convenience creates loyalty</h3>
+              <p>When customers know your location has an ATM, it factors into their decisions about where to go. 35% explicitly say they'd visit less without it. The ATM becomes a reason to choose you — not just a machine in the corner.</p>
+            </div>
+          </div>
+          <div class="means-item reveal">
+            <div class="mi-num">03</div>
+            <div class="mi-body">
+              <h3>Cash behavior is different from card behavior</h3>
+              <p>Multiple behavioral economics studies show that people spend cash differently than they spend with cards. Cash feels more tangible, which paradoxically makes people more willing to spend it on small, immediate purchases. Your average-ticket items benefit directly.</p>
+            </div>
+          </div>
+          <div class="means-item reveal">
+            <div class="mi-num">04</div>
+            <div class="mi-body">
+              <h3>The effect compounds over time</h3>
+              <p>A customer who comes in once for the ATM and buys something is a good transaction. A customer who establishes a habit of using your ATM regularly — and buying something each visit — is a different category entirely. Retention matters more than acquisition.</p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- TOP CATEGORIES -->
+  <section class="categories-section">
+    <div class="section-container centered">
+      <div class="eyebrow">Purchase Behavior</div>
+      <h2 class="section-h2" style="text-align:center">
+        What ATM users buy<br><em>immediately after withdrawing.</em>
+      </h2>
+      <p class="section-p" style="text-align:center;max-width:600px;margin:0 auto 48px">
+        According to Convenience Store News research, the following categories dominate post-ATM purchases. If your business sells any of these, the case for an ATM becomes even stronger.
+      </p>
+      <div class="cat-row">
+        <div class="cat-card reveal">
+          <div class="cat-rank">01</div>
+          <div class="cat-name">Fuel</div>
+          <div class="cat-desc">The top category. Customers frequently use ATM cash to pay for gas at locations that accept cash at the pump.</div>
+        </div>
+        <div class="cat-card reveal">
+          <div class="cat-rank">02</div>
+          <div class="cat-name">Tobacco Products</div>
+          <div class="cat-desc">High-frequency purchase category. ATM users consistently rank tobacco products among top immediate purchases.</div>
+        </div>
+        <div class="cat-card reveal">
+          <div class="cat-rank">03</div>
+          <div class="cat-name">Coffee &amp; Hot Beverages</div>
+          <div class="cat-desc">Low price point, high frequency. A natural impulse purchase for someone who came in for cash and is already at the counter.</div>
+        </div>
+        <div class="cat-card reveal">
+          <div class="cat-rank">04</div>
+          <div class="cat-name">Beverages &amp; Alcohol</div>
+          <div class="cat-desc">Bars and liquor stores see outsized benefit. Customers who withdraw cash for drinks immediately spend it where they withdrew it.</div>
+        </div>
+        <div class="cat-card reveal">
+          <div class="cat-rank">05</div>
+          <div class="cat-name">Food &amp; Snacks</div>
+          <div class="cat-desc">Convenience food is the natural pairing for an ATM visit. Quick, cash-friendly, and immediately available.</div>
+        </div>
+      </div>
+      <div class="cat-source">Source: Convenience Store News — Driving Incremental Sales with ATM Availability</div>
     </div>
   </section>
 
   <!-- SOURCES -->
   <section class="sources-section">
-    <div class="section-inner">
-      <div class="section-label">Full Transparency</div>
-      <h2 class="section-title">Where These Numbers <span class="green">Come From</span></h2>
+    <div class="section-container centered">
+      <div class="eyebrow">Cited Sources</div>
+      <h2 class="section-h2" style="text-align:center">
+        Where every number<br><em>on this page comes from.</em>
+      </h2>
+      <p class="section-p" style="text-align:center;max-width:620px;margin:0 auto 48px">
+        We don't make claims without backing. Every statistic cited throughout this site is sourced from published industry research. Click through to verify any number yourself.
+      </p>
       <div class="sources-grid">
-        <div class="source-card">
+        <div class="src-card reveal">
+          <div class="src-num">01</div>
           <h4>NCR Atleos — ATM Survey Results</h4>
-          <p>NCR Atleos publishes ongoing consumer research on ATM usage behavior including in-store purchase conversion rates, foot traffic attribution, and ATM dependency data.</p>
-          <a href="https://www.ncratleos.com/insights/atm-survey-results" target="_blank" rel="noopener" class="source-link">View Source →</a>
+          <p>NCR Atleos is one of the world's largest ATM manufacturers and operators. They publish ongoing consumer research on ATM usage behavior, including in-store purchase conversion rates, foot traffic attribution, and machine dependency data.</p>
+          <div class="src-stats">Stats used: 55%, 70%, 35%</div>
+          <a href="https://www.ncratleos.com/insights/atm-survey-results" target="_blank" rel="noopener" class="src-link">View Source →</a>
         </div>
-        <div class="source-card">
+        <div class="src-card reveal">
+          <div class="src-num">02</div>
           <h4>CDS — Consumer Habits &amp; Retail ATMs</h4>
-          <p>Complete Debit Solutions publishes research on retail ATM consumer behavior including average withdrawal amounts, cash usage patterns, and in-store purchase rates.</p>
-          <a href="https://www.cdsatm.com/insights/consumer-habits-retail-atms" target="_blank" rel="noopener" class="source-link">View Source →</a>
+          <p>Complete Debit Solutions specializes in retail ATM deployment. Their consumer research covers average withdrawal amounts, cash usage patterns, post-withdrawal purchase behavior, and the $68 average withdrawal finding that appears consistently in their studies.</p>
+          <div class="src-stats">Stats used: 52%, $68 average withdrawal, 20%</div>
+          <a href="https://www.cdsatm.com/insights/consumer-habits-retail-atms" target="_blank" rel="noopener" class="src-link">View Source →</a>
         </div>
-        <div class="source-card">
+        <div class="src-card reveal">
+          <div class="src-num">03</div>
           <h4>Convenience Store News</h4>
-          <p>CSNews covers top purchase categories among ATM users in convenience retail, documenting the direct relationship between cash access and impulse purchases.</p>
-          <a href="https://csnews.com/driving-incremental-sales-atm-availability" target="_blank" rel="noopener" class="source-link">View Source →</a>
+          <p>CSNews is the leading trade publication for convenience retail in the United States. Their research on ATM-driven incremental sales documents the direct relationship between in-store cash access and purchase behavior across thousands of retail locations.</p>
+          <div class="src-stats">Stats used: Purchase category data</div>
+          <a href="https://csnews.com/driving-incremental-sales-atm-availability" target="_blank" rel="noopener" class="src-link">View Source →</a>
         </div>
-        <div class="source-card">
-          <h4>Federal Reserve — Consumer Payment Diary</h4>
-          <p>The Fed's annual consumer payments diary documents cash usage trends, confirming the continued role of cash in small-value transactions and in-store retail environments.</p>
-          <a href="https://www.atlantafed.org/banking-and-payments/consumer-payments/diary-of-consumer-payment-choice" target="_blank" rel="noopener" class="source-link">View Source →</a>
+        <div class="src-card reveal">
+          <div class="src-num">04</div>
+          <h4>Federal Reserve — Diary of Consumer Payment Choice</h4>
+          <p>The Federal Reserve Bank of Atlanta publishes an annual consumer payments diary documenting how Americans use different payment methods across transaction types. The data confirms the continued and substantial role of cash in small-value retail transactions.</p>
+          <div class="src-stats">Context: Cash usage trends and behavior</div>
+          <a href="https://www.atlantafed.org/banking-and-payments/consumer-payments/diary-of-consumer-payment-choice" target="_blank" rel="noopener" class="src-link">View Source →</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- BOTTOM CTA -->
-  <section class="bottom-cta">
-    <div class="bottom-cta-bg"></div>
-    <div class="bottom-cta-content">
-      <div class="section-label light">The Data Is Clear</div>
-      <h2>Your Location Is Leaving<br><span class="green">Money On The Table.</span></h2>
-      <p>Every day without an ATM is foot traffic you're not capturing and passive income you're not earning. Call or text Chris today — it costs you nothing to find out what you could be making.</p>
-      <div class="cta-btns">
-        <a href="tel:+13308538228" class="btn-primary large">
-          <span class="btn-icon">📞</span>
+  <!-- FINAL CTA -->
+  <section class="cta-section">
+    <div class="cta-bg"></div>
+    <div class="cta-grid-overlay"></div>
+    <div class="cta-inner">
+      <div class="eyebrow light">The Data Is Clear</div>
+      <h2 class="cta-h2">
+        Your location is leaving<br>
+        <em>money on the table.</em>
+      </h2>
+      <p class="cta-body">
+        Every day without an ATM is foot traffic you didn't capture, spending you didn't see, and passive income you didn't earn. The cost to change that is zero. The conversation takes five minutes. Call or text Chris today.
+      </p>
+      <div class="cta-actions">
+        <a href="tel:+13308538228" class="btn-primary btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 11 19.79 19.79 0 011.61 2.44 2 2 0 013.58 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           Call 330-853-8228
         </a>
-        <a href="sms:+13308538228" class="btn-secondary large">
-          <span class="btn-icon">💬</span>
-          Text Us Now
+        <a href="sms:+13308538228" class="btn-ghost btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          Send a Text
         </a>
       </div>
-      <p class="cta-sub">Locally owned · East Liverpool, Ohio · Fast Cash. Anytime.</p>
+      <div class="cta-sub">East Liverpool, Ohio &nbsp;·&nbsp; cdesarro@hotmail.com &nbsp;·&nbsp; cashpointatm.com</div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <img src="images/logo.png" alt="Cash Point ATM Services" class="footer-logo">
-        <p>Locally owned and operated ATM placement services in Northeast Ohio and surrounding regions.</p>
+        <p>Free ATM placement for businesses across Northeast Ohio and surrounding regions. Locally owned, fully managed, zero cost to location owners.</p>
+        <div class="footer-tagline">Fast Cash. Anytime.</div>
       </div>
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <a href="index.html">Home</a>
-        <a href="facts.html">The Facts</a>
-        <a href="index.html#how-it-works">How It Works</a>
+      <div class="footer-nav">
+        <h4>Site</h4>
+        <a href="index.html#why">Why an ATM</a>
+        <a href="index.html#how">How It Works</a>
+        <a href="index.html#included">What's Included</a>
+        <a href="facts.html">The Data</a>
         <a href="index.html#faq">FAQ</a>
       </div>
       <div class="footer-contact">
-        <h4>Contact Chris</h4>
-        <a href="tel:+13308538228">📞 330-853-8228</a>
-        <a href="sms:+13308538228">💬 Text Us</a>
-        <a href="mailto:cdesarro@hotmail.com">✉ cdesarro@hotmail.com</a>
-        <p class="footer-location">📍 East Liverpool, Ohio</p>
+        <h4>Contact</h4>
+        <a href="tel:+13308538228">330-853-8228</a>
+        <a href="sms:+13308538228">Text Us</a>
+        <a href="mailto:cdesarro@hotmail.com">cdesarro@hotmail.com</a>
+        <div class="footer-loc">East Liverpool, Ohio</div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 Cash Point ATM Services · Locally Owned &amp; Operated · Fast Cash. Anytime.</p>
+      <p>© 2025 Cash Point ATM Services &nbsp;·&nbsp; Locally Owned &amp; Operated &nbsp;·&nbsp; Northeast Ohio</p>
     </div>
   </footer>
 
   <script>
     const nav = document.getElementById('nav');
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('scrolled', window.scrollY > 40);
+    window.addEventListener('scroll', () => nav.classList.toggle('is-scrolled', window.scrollY > 50), { passive: true });
+    const burger = document.getElementById('burger');
+    const navMobile = document.getElementById('nav-mobile');
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('open');
+      navMobile.classList.toggle('open');
+      document.body.style.overflow = navMobile.classList.contains('open') ? 'hidden' : '';
     });
-    const hamburger = document.getElementById('hamburger');
-    const mobileMenu = document.getElementById('mobile-menu');
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('open');
-      mobileMenu.classList.toggle('open');
-    });
-    mobileMenu.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        hamburger.classList.remove('open');
-        mobileMenu.classList.remove('open');
-      });
-    });
+    navMobile.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      burger.classList.remove('open');
+      navMobile.classList.remove('open');
+      document.body.style.overflow = '';
+    }));
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.big-stat-card, .means-card, .source-card, .category-card').forEach(el => {
-      el.classList.add('reveal');
-      observer.observe(el);
-    });
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('in'), i * 70);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   </script>
 </body>
 </html>
